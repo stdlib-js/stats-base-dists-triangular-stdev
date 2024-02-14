@@ -69,7 +69,7 @@ where `a` is the lower limit, `b` is the upper limit, and `c` is the mode.
 ## Usage
 
 ```javascript
-import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular-stdev@esm/index.mjs';
+import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular-stdev@v0.2.0-esm/index.mjs';
 ```
 
 #### stdev( a, b, c )
@@ -140,7 +140,7 @@ y = stdev( 0.0, -1.0, 0.5 );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular-stdev@esm/index.mjs';
+import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular-stdev@v0.2.0-esm/index.mjs';
 
 var a;
 var b;
