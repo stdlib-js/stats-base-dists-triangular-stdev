@@ -71,6 +71,11 @@ where `a` is the lower limit, `b` is the upper limit, and `c` is the mode.
 To use in Observable,
 
 ```javascript
+stdev = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular-stdev@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-triangular-stdev/tags). For example,
+
+```javascript
 stdev = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular-stdev@v0.3.0-umd/browser.js' )
 ```
 
@@ -83,7 +88,7 @@ var stdev = require( 'path/to/vendor/umd/stats-base-dists-triangular-stdev/index
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular-stdev@v0.3.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular-stdev@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -162,7 +167,7 @@ y = stdev( 0.0, -1.0, 0.5 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular-stdev@v0.3.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular-stdev@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
