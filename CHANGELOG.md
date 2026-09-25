@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-24)
+## Unreleased (2026-09-25)
 
 <section class="commits">
 
@@ -12,7 +12,8 @@
 
 <details>
 
--   [`68b4b33`](https://github.com/stdlib-js/stdlib/commit/68b4b338b1d1d6dfc8059b99295bb45c51aa2890) - **test:** migrate `base/dists/triangular/stdev` to ULP-based assertions [(#15460)](https://github.com/stdlib-js/stdlib/pull/15460) _(by Devansh Patel)_
+-   [`e737e90`](https://github.com/stdlib-js/stdlib/commit/e737e9002982713c3533a9a5fe3e0c6a8e7e79ee) - **chore:** clean-up [(#15498)](https://github.com/stdlib-js/stdlib/pull/15498) _(by Philipp Burckhardt)_
+-   [`68b4b33`](https://github.com/stdlib-js/stdlib/commit/68b4b338b1d1d6dfc8059b99295bb45c51aa2890) - **test:** migrate `stats/base/dists/triangular/stdev` to ULP-based assertions [(#15460)](https://github.com/stdlib-js/stdlib/pull/15460) _(by Devansh Patel)_
 -   [`9430db6`](https://github.com/stdlib-js/stdlib/commit/9430db645b6b1d36afb35e2fe3275d9ce4c384b8) - **refactor:** reuse variance implementation for stdev in `stats/base/dists` [(#11370)](https://github.com/stdlib-js/stdlib/pull/11370) _(by Om-A-osc, Athan Reines)_
 -   [`f38e8a7`](https://github.com/stdlib-js/stdlib/commit/f38e8a7b433e0e9888eb57c83f4374073089ad85) - **docs:** clean-up parameters in Julia fixtures scripts _(by Philipp Burckhardt)_
 
