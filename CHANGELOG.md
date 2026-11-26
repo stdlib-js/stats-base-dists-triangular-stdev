@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-16)
+## Unreleased (2026-11-26)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#4989](https://github.com/stdlib-js/stdlib/issues/4989)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +24,7 @@
 
 <details>
 
+-   [`f008bf3`](https://github.com/stdlib-js/stdlib/commit/f008bf3988c36006ff71feacc7cfe4af94c149ae) - **bench:** refactor random number generation in `stats/base/dists/triangular` [(#16644)](https://github.com/stdlib-js/stdlib/pull/16644) _(by Parth Dembla, Athan Reines)_
 -   [`e737e90`](https://github.com/stdlib-js/stdlib/commit/e737e9002982713c3533a9a5fe3e0c6a8e7e79ee) - **chore:** clean-up [(#15498)](https://github.com/stdlib-js/stdlib/pull/15498) _(by Philipp Burckhardt)_
 -   [`68b4b33`](https://github.com/stdlib-js/stdlib/commit/68b4b338b1d1d6dfc8059b99295bb45c51aa2890) - **test:** migrate `stats/base/dists/triangular/stdev` to ULP-based assertions [(#15460)](https://github.com/stdlib-js/stdlib/pull/15460) _(by Devansh Patel)_
 -   [`9430db6`](https://github.com/stdlib-js/stdlib/commit/9430db645b6b1d36afb35e2fe3275d9ce4c384b8) - **refactor:** reuse variance implementation for stdev in `stats/base/dists` [(#11370)](https://github.com/stdlib-js/stdlib/pull/11370) _(by Om-A-osc, Athan Reines)_
@@ -27,11 +40,12 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Devansh Patel
 -   Om-A-osc
+-   Parth Dembla
 -   Philipp Burckhardt
 
 </section>
